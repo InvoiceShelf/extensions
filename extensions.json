@@ -1,0 +1,16 @@
+{
+  {
+    "name": "Example Extension",
+    "description": "An example extension for the project.",
+    "version": "1.0.0",
+    "author": "John Doe",
+    "license": "MIT",
+    "tags": ["analytics", "e-commerce"],
+    "compatibility": {
+      "min_version": "1.0.0",
+      "max_version": "2.0.0"
+    },
+    "repository": "https://github.com/username/example-extension",
+    "download_url": "https://github.com/username/example-extension/archive/refs/tags/v1.0.0.zip"
+  }
+}
