@@ -9,6 +9,8 @@ This document is the **authoritative reference** for:
 
 For building modules inside Laravel, see the **[Module development guide](https://github.com/InvoiceShelf/InvoiceShelf/blob/main/docs/modules-development.md)** in the InvoiceShelf repository (`nwidart/laravel-modules`, `Modules/`, admin assets, menus). For general setup, see the [developer guide](https://docs.invoiceshelf.com/developer-guide.html).
 
+**PDF templates** (invoice & estimate Blade packs) use a separate manifest: **[TEMPLATES.md](TEMPLATES.md)** and root **`templates.json`** (same Admin → Modules installer).
+
 ---
 
 ## Table of contents

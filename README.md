@@ -13,6 +13,7 @@ This repository publishes the **public extensions manifest** consumed by [Invoic
 | [**Catalog & publishing guide**](docs/CATALOG.md) | Manifest schema, ZIP layout, compatibility, release workflow, PR checklist |
 | [**Contributing**](CONTRIBUTING.md) | How to propose changes and what reviewers look for |
 | [**Entry template (JSON)**](docs/examples/extension-entry.template.json) | Copy-paste starter for a new `extensions` item |
+| [**PDF templates manifest**](docs/TEMPLATES.md) | `templates.json` — invoice & estimate Blade templates (same Admin → Modules installer) |
 
 ---
 
