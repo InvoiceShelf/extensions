@@ -7,7 +7,7 @@ This document is the **authoritative reference** for:
 3. How to **package** a module ZIP that installs correctly  
 4. How to **publish** a new version and list it in this catalog  
 
-For building modules inside Laravel, see the [InvoiceShelf](https://github.com/InvoiceShelf/InvoiceShelf) repository (`nwidart/laravel-modules`, `Modules/` directory) and the [developer guide](https://docs.invoiceshelf.com/developer-guide.html).
+For building modules inside Laravel, see the **[Module development guide](https://github.com/InvoiceShelf/InvoiceShelf/blob/main/docs/modules-development.md)** in the InvoiceShelf repository (`nwidart/laravel-modules`, `Modules/`, admin assets, menus). For general setup, see the [developer guide](https://docs.invoiceshelf.com/developer-guide.html).
 
 ---
 
