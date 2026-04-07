@@ -1,3 +1,112 @@
 {
-  "templates": []
+  "templates": [
+    {
+      "slug": "native-invoice-1",
+      "type": "invoice",
+      "template_name": "invoice1",
+      "name": "Invoice 1",
+      "description": "Classic InvoiceShelf invoice layout (default).",
+      "version": "1.0.0",
+      "author": "InvoiceShelf",
+      "license": "MIT",
+      "tags": ["invoice", "classic", "native"],
+      "compatibility": {
+        "min_version": "1.3.0",
+        "max_version": "99.0.0"
+      },
+      "repository": "https://github.com/InvoiceShelf/InvoiceShelf",
+      "download_url": "https://raw.githubusercontent.com/InvoiceShelf/extensions/main/packages/pdf-templates/invoice1.zip",
+      "cover": "https://raw.githubusercontent.com/InvoiceShelf/extensions/main/previews/invoice1.png"
+    },
+    {
+      "slug": "native-invoice-2",
+      "type": "invoice",
+      "template_name": "invoice2",
+      "name": "Invoice 2",
+      "description": "Alternative invoice layout.",
+      "version": "1.0.0",
+      "author": "InvoiceShelf",
+      "license": "MIT",
+      "tags": ["invoice", "native"],
+      "compatibility": {
+        "min_version": "1.3.0",
+        "max_version": "99.0.0"
+      },
+      "repository": "https://github.com/InvoiceShelf/InvoiceShelf",
+      "download_url": "https://raw.githubusercontent.com/InvoiceShelf/extensions/main/packages/pdf-templates/invoice2.zip",
+      "cover": "https://raw.githubusercontent.com/InvoiceShelf/extensions/main/previews/invoice2.png"
+    },
+    {
+      "slug": "native-invoice-3",
+      "type": "invoice",
+      "template_name": "invoice3",
+      "name": "Invoice 3",
+      "description": "Alternative invoice layout.",
+      "version": "1.0.0",
+      "author": "InvoiceShelf",
+      "license": "MIT",
+      "tags": ["invoice", "native"],
+      "compatibility": {
+        "min_version": "1.3.0",
+        "max_version": "99.0.0"
+      },
+      "repository": "https://github.com/InvoiceShelf/InvoiceShelf",
+      "download_url": "https://raw.githubusercontent.com/InvoiceShelf/extensions/main/packages/pdf-templates/invoice3.zip",
+      "cover": "https://raw.githubusercontent.com/InvoiceShelf/extensions/main/previews/invoice3.png"
+    },
+    {
+      "slug": "native-estimate-1",
+      "type": "estimate",
+      "template_name": "estimate1",
+      "name": "Estimate 1",
+      "description": "Classic InvoiceShelf estimate layout (default).",
+      "version": "1.0.0",
+      "author": "InvoiceShelf",
+      "license": "MIT",
+      "tags": ["estimate", "classic", "native"],
+      "compatibility": {
+        "min_version": "1.3.0",
+        "max_version": "99.0.0"
+      },
+      "repository": "https://github.com/InvoiceShelf/InvoiceShelf",
+      "download_url": "https://raw.githubusercontent.com/InvoiceShelf/extensions/main/packages/pdf-templates/estimate1.zip",
+      "cover": "https://raw.githubusercontent.com/InvoiceShelf/extensions/main/previews/estimate1.png"
+    },
+    {
+      "slug": "native-estimate-2",
+      "type": "estimate",
+      "template_name": "estimate2",
+      "name": "Estimate 2",
+      "description": "Alternative estimate layout.",
+      "version": "1.0.0",
+      "author": "InvoiceShelf",
+      "license": "MIT",
+      "tags": ["estimate", "native"],
+      "compatibility": {
+        "min_version": "1.3.0",
+        "max_version": "99.0.0"
+      },
+      "repository": "https://github.com/InvoiceShelf/InvoiceShelf",
+      "download_url": "https://raw.githubusercontent.com/InvoiceShelf/extensions/main/packages/pdf-templates/estimate2.zip",
+      "cover": "https://raw.githubusercontent.com/InvoiceShelf/extensions/main/previews/estimate2.png"
+    },
+    {
+      "slug": "native-estimate-3",
+      "type": "estimate",
+      "template_name": "estimate3",
+      "name": "Estimate 3",
+      "description": "Alternative estimate layout.",
+      "version": "1.0.0",
+      "author": "InvoiceShelf",
+      "license": "MIT",
+      "tags": ["estimate", "native"],
+      "compatibility": {
+        "min_version": "1.3.0",
+        "max_version": "99.0.0"
+      },
+      "repository": "https://github.com/InvoiceShelf/InvoiceShelf",
+      "download_url": "https://raw.githubusercontent.com/InvoiceShelf/extensions/main/packages/pdf-templates/estimate3.zip",
+      "cover": "https://raw.githubusercontent.com/InvoiceShelf/extensions/main/previews/estimate3.png"
+    }
+  ]
 }

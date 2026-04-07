@@ -10,6 +10,12 @@ Thank you for helping grow the InvoiceShelf extension ecosystem.
 4. **Open a PR** with a clear title, e.g. `Add extension: my-slug` or `Update payments to 1.2.0`.
 5. Ensure **`download_url` returns HTTP 200** and a valid ZIP without authentication (verify in a browser or with `curl -I`).
 
+### PDF templates (`templates.json`)
+
+1. Edit **`templates.json`** (see [docs/TEMPLATES.md](docs/TEMPLATES.md)).
+2. Add **`cover`** — a **required** HTTPS URL to a screenshot (store cards and InvoiceShelf validation).
+3. Add **`packages/pdf-templates/*.zip`** and **`previews/*.png`** to this repo when hosting native or third-party packs here.
+
 ## What maintainers check
 
 - [ ] Valid JSON; root object includes an `extensions` array.
@@ -17,7 +23,7 @@ Thank you for helping grow the InvoiceShelf extension ecosystem.
 - [ ] `download_url` is HTTPS, versioned, and publicly accessible.
 - [ ] `compatibility.min_version` / `max_version` align with InvoiceShelf versions you support.
 - [ ] `repository` points to the canonical source (issue tracker, license).
-- [ ] `cover` URL loads (optional but recommended for the store UI).
+- [ ] `cover` URL loads (required for `templates.json`; recommended for `extensions.json`).
 - [ ] No secrets, tokens, or private URLs in the manifest.
 
 ## Questions

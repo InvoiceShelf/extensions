@@ -20,6 +20,7 @@ This repository publishes the **public extensions manifest** consumed by [Invoic
 ## Quick facts
 
 - **Curated list** — Extensions are **not** uploaded here as binary releases; each entry points to your own Git repository and a **direct HTTPS URL** to a versioned **ZIP** (typically a GitHub Release asset).
+- **PDF templates** — `templates.json` lists invoice/estimate Blade packs; **`previews/`** stores screenshot PNGs and **`packages/pdf-templates/`** hosts ZIPs (see [docs/TEMPLATES.md](docs/TEMPLATES.md)). Every catalog entry **must** include a **`cover`** image URL.
 - **Open contribution** — Add or update your extension metadata via **pull request** to `extensions.json` on `main`.
 - **License** — The JSON catalog in this repo is metadata; each extension’s **license** is declared per entry and applies to the extension package itself.
 

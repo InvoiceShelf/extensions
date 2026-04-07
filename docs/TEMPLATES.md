@@ -50,7 +50,7 @@ Configure per instance with `INVOICESHELF_TEMPLATES_MANIFEST_URL` in `.env` (see
 | `compatibility` | Recommended | `min_version` / `max_version` for InvoiceShelf app version. |
 | `repository` | Recommended | Source URL. |
 | `download_url` | Yes | Direct HTTPS URL to a **ZIP** archive. |
-| `cover` | Optional | Preview image URL for the store card. |
+| `cover` | **Yes** | HTTPS URL to a **screenshot** (PNG or JPG) shown in Admin → Modules. Entries without `cover` are rejected by InvoiceShelf. |
 | `module_name` | Optional | Override auto-generated install id (`PdfTemplate_*`). Prefer default unless you have a collision. |
 
 ---
