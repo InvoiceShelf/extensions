@@ -1,0 +1,17 @@
+{
+  "slug": "your-extension",
+  "module_name": "YourExtension",
+  "name": "Your Extension",
+  "description": "One or two sentences describing what the extension does for InvoiceShelf users.",
+  "version": "1.0.0",
+  "author": "Your Name or Org",
+  "license": "MIT",
+  "tags": ["tag-one", "tag-two"],
+  "compatibility": {
+    "min_version": "1.3.0",
+    "max_version": "99.0.0"
+  },
+  "repository": "https://github.com/your-org/module-your-extension",
+  "download_url": "https://github.com/your-org/module-your-extension/releases/download/v1.0.0/YourExtension.zip",
+  "cover": "https://raw.githubusercontent.com/your-org/module-your-extension/main/preview.png"
+}
